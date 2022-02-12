@@ -64,7 +64,7 @@ def game_loop():
                         game_loop()
                                     
         for event in pygame.event.get():
-            print(event)
+            # print(event)
             if event.type == pygame.QUIT:
                 GAME_OVER = True
 
